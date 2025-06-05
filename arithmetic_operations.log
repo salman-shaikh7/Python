@@ -1,0 +1,5 @@
+2024-10-15 02:07:52,621 - DEBUG - Starting operations with x=10, y=0
+2024-10-15 02:07:52,621 - INFO - Adding 10 and 0, result: 10
+2024-10-15 02:07:52,621 - INFO - Subtracting 0 from 10, result: 10
+2024-10-15 02:07:52,621 - INFO - Multiplying 10 and 0, result: 0
+2024-10-15 02:07:52,621 - ERROR - Error occurred: Cannot divide by zero
