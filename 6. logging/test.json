@@ -1,0 +1,195 @@
+{
+    "workbench.startupEditor": "none",
+    "workbench.layoutControl.enabled": false,
+    "window.commandCenter": false,
+    "git.enableSmartCommit": true,
+    "breadcrumbs.enabled": false,
+    "explorer.confirmDelete": false,
+    "python.defaultInterpreterPath": "C:\\Users\\salma\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+    "notebook.output.textLineLimit": 35,
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    
+    
+
+    "editor.tokenColorCustomizations": {        
+    
+        "keywords": "#f58adf",
+        "functions": "#f5f5a1",
+        //"functions": "#3d99f5",
+        //"strings": "#f6f6cf",
+        "strings": "#7ad6f2",
+        "variables": "#00c3ff",
+        //"variables": "#00c3ff",
+        "numbers": "#ebb4f5",
+        "textMateRules": [
+            {
+                "scope": [
+                    "support.type.property-name.json",
+                    "variable.other.json",
+                    "variable.other.json string",
+                    "variable.other.object.property.json"
+                ],
+                "settings": {
+                    "foreground": "#00c3ff" // Change this to your desired color
+                }
+            }
+        ]
+      
+    },
+    "workbench.colorCustomizations": {
+
+
+        "tab.activeForeground": "#46cff9",
+
+        "menubar.selectionForeground": "#00c3ff",
+        //"icon.foreground": "#00c3ff",
+        //"icon.foreground": "#ff0000",
+        //"foreground": "#00c3ff",
+        "terminal.foreground": "#00c3ff",
+
+        //"sideBar.foreground": "#00c3ff",
+        //"sideBarTitle.foreground": "#00c3ff",
+        //"sideBarSectionHeader.foreground": "#00c3ff",
+
+
+        //"titleBar.activeForeground": "#00c3ff",
+        "menu.selectionForeground": "#00c3ff",
+        //"menu.foreground": "#00c3ff",
+
+    
+
+        //"statusBar.foreground": "#00c3ff",
+        "activityBar.foreground": "#00c3ff",
+        "statusBarItem.hoverForeground": "#00c3ff"
+        //"activityBar.inactiveForeground": "#00c3ff",
+    },
+    "material-icon-theme.files.color": "#00c3ff",
+    "terminal.integrated.profiles.windows": {
+
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+
+        "Anaconda Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+                
+
+            ],
+            "args": ["/K", "C:\\Users\\salma\\anaconda3\\Scripts\\activate.bat C:\\Users\\salma\\anaconda3"],
+            "icon": "terminal-cmd" 
+        },
+
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            //%windir%\System32\cmd.exe "/K" C:\Users\salma\anaconda3\Scripts\activate.bat C:\Users\salma\anaconda3
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        }
+
+    },
+    "editor.fontLigatures": false,
+    "editor.fontWeight": "normal",
+    "window.zoomLevel": 1,
+    "remote.autoForwardPortsSource": "hybrid",
+    "python.analysis.extraPaths": [],
+    "jupyter.jupyterLaunchTimeout": 600000,
+    "[oraclesql]": {
+        "editor.suggest.showSnippets": true,
+        "editor.quickSuggestions": {
+            "comments": "on",
+            "strings": "on",
+            "other": "on"
+        }
+    },
+
+    "window.menuBarVisibility": "classic",
+    "diffEditor.codeLens": true,
+    "cloudcode.autoDependencies": "off",
+    "cloudcode.cloudshell.project": "myprojectid7028",
+    "remote.SSH.defaultExtensions": [
+        "googlecloudtools.cloudcode"
+    ],
+    "remote.SSH.remotePlatform": {
+        "cloud-shell": "linux"
+    },
+    "mssql.connections": [
+        {
+            "server": "localhost\\MSSQLSERVER01",
+            "database": "master",
+            "authenticationType": "Integrated",
+            "encrypt": "true",
+            "trustServerCertificate": true,
+            "connectTimeout": 30,
+            "commandTimeout": 30,
+            "connectRetryCount": 1,
+            "connectRetryInterval": 10,
+            "applicationName": "vscode-mssql",
+            "profileName": "",
+            "groupId": "5BE5004E-4EFC-4084-BAAC-EF59FDE3FAD7",
+            "id": "9A86F921-A658-4DC6-9ADE-300319194823",
+            "user": "",
+            "password": "",
+            "profileSource": 0
+        }
+    ],
+    "hediet.vscode-drawio.resizeImages": null,
+    "dbcode.connections": [
+        {
+            "connectionId": "SVWtvwKxzovTXQhKag680",
+            "name": "SQL Server",
+            "driver": "mssql",
+            "color": "#00A6FF",
+            "host": "localhost\\MSSQLSERVER01",
+            "port": 1433,
+            "ssl": false,
+            "driverOptions": {
+                "authType": "windows"
+            },
+            "username": "Salman",
+            "savePassword": "secretStorage",
+            "readOnly": false,
+            "connectionTimeout": 30,
+            "connectionType": "host"
+        }
+    ],
+    "editor.minimap.enabled": false,
+    "snowflake.connectionsConfigFile": "C:\\Users\\salma\\.snowflake\\connections.toml",
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+        "latex": false
+    },
+    "workbench.editor.empty.hint": "hidden",
+    "git.confirmSync": false,
+    "files.exclude": {
+        "**/*.aux": true,
+        "**/*.fdb_latexmk": true,
+        "**/*.fls": true,
+        "**/*.gz": true,
+        "**/*.out": true,
+        "**/Z_Archieved": true
+    },
+        "hediet.vscode-drawio.theme": "kennedy",
+        "hediet.vscode-drawio.appearance": "light",
+        "mssql.connectionGroups": [
+            {
+                "name": "ROOT",
+                "id": "5BE5004E-4EFC-4084-BAAC-EF59FDE3FAD7"
+            }
+        ],
+        "vscode-office.editorTheme": "Auto",
+        "notebook.experimental.generate": false,
+        "zenMode.hideLineNumbers": false
+
+}
